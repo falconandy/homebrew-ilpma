@@ -9,7 +9,7 @@ class IlpmaDev < Formula
   depends_on "node@12"
 
   def install
-    system "npm", "install", *Language::Node.local_npm_install_args
+    system "npm", "install", *Language::Node.std_npm_install_args(libexec)
     bin.install_symlink libexec/"bin/ilpma" => "ilpma-dev"
   end
 
