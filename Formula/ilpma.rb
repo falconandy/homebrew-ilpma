@@ -1,6 +1,6 @@
 require "language/node"
 
-class Foo < Formula
+class Ilpma < Formula
   desc "..."
   homepage "https://example.com"
   url "https://registry.npmjs.org/@falconandy/ilpma/-/ilpma-0.1.18.tgz"
