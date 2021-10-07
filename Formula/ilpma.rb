@@ -4,7 +4,7 @@ class Ilpma < Formula
   desc "..."
   homepage "https://example.com"
   url "https://registry.npmjs.org/@falconandy/ilpma/-/ilpma-0.1.18.tgz"
-  sha256 "9fb0f17d9d378fc8be5f7d825c34e45a3e090e0e"
+  sha256 "8abfcf5a430fbe9bf2ac8a5ad26dd1435160790c01253574683b06ac9e8099c4"
 
   depends_on "node@12"
 
