@@ -11,7 +11,7 @@ class IlpmaDev < Formula
 
   def install
     inreplace "bin/ilpma", /^CLIENT_HOME=/, "export ILPMA_OCLIF_CLIENT_HOME=#{lib/"client"}\nCLIENT_HOME="
-    inreplace "bin/ilpma", "\"$DIR/node\"", "#{Formula["node@12"].libexec}/node"
+    inreplace "bin/ilpma", "\"$DIR/node\"", "#{Formula["node@12"].bin}/node"
     libexec.install Dir["*"]
     bin.install_symlink libexec/"bin/ilpma" => "ilpma-dev"
   end
