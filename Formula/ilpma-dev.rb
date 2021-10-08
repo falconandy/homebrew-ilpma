@@ -5,7 +5,7 @@ class IlpmaDev < Formula
   homepage "https://example.com"
   url "https://github.com/falconandy/ilpma/releases/download/latest/ilpma-v0.1.19-master-41a0cc4e.0.tar.gz"
   version "0.1.19-master-41a0cc4e.0"
-  sha256 "facc2b78b81d42ddb8caeb1ac0272158dc44a51854894667b28412e68c2d3868"
+  sha256 "6efd480dc48478fe174f34da30e7e7a9621308bdc900c45c820ca8349598e14b"
 
   depends_on "node@12"
 
