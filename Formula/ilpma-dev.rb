@@ -10,7 +10,7 @@ class IlpmaDev < Formula
 
   def install
     system "npm", "install", *Language::Node.std_npm_install_args(libexec)
-    bin.install_symlink libexec/"bin/ilpma" => "ilpma-dev"
+    bin.install_symlink Dir["#{libexec}/bin/*"]
   end
 
   test do
