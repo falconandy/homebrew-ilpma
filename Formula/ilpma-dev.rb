@@ -10,6 +10,8 @@ class IlpmaDev < Formula
   depends_on "node@12"
 
   def install
+    inreplace "bin/itly", /^CLIENT_HOME=/, "export ILPMA_OCLIF_CLIENT_HOME=#{lib/"client"}\nCLIENT_HOME="
+    inreplace "bin/itly", "\"$DIR/node\"", "#{Formula["node@12"].libexec}/node"
     libexec.install Dir["*"]
     bin.install_symlink libexec/"bin/ilpma" => "ilpma-dev"
   end
