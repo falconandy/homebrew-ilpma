@@ -10,7 +10,9 @@ class Ilpma < Formula
   depends_on "node@12"
 
   def install
-    system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+    inreplace "bin/ilpma", /^CLIENT_HOME=/, "export ILPMA_OCLIF_CLIENT_HOME=#{lib/"client"}\nCLIENT_HOME="
+    inreplace "bin/ilpma", "\"$DIR/node\"", "#{Formula["node@12"].bin}/node"
+    libexec.install Dir["*"]
     bin.install_symlink libexec/"bin/ilpma" => "ilpma"
   end
 
