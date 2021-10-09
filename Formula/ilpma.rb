@@ -3,9 +3,9 @@ require "language/node"
 class Ilpma < Formula
   desc "The Ilpma CLI"
   homepage "https://example.com"
-  url "https://registry.npmjs.org/@falconandy/ilpma/-/ilpma-0.1.18.tgz"
-  version "0.1.18"
-  sha256 "8abfcf5a430fbe9bf2ac8a5ad26dd1435160790c01253574683b06ac9e8099c4"
+  url "https://github.com/falconandy/ilpma/releases/download/v0.1.29/ilpma-v0.1.29.tar.gz"
+  version "0.1.29"
+  sha256 "2fd59aa60d80ff441cb91a6a917799688395490b10a734e705605ce2af0f7e34"
 
   depends_on "node@12"
 
