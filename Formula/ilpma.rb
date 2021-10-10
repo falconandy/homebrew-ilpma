@@ -1,5 +1,3 @@
-require "language/node"
-
 class Ilpma < Formula
   desc "The Ilpma CLI"
   homepage "https://example.com"
