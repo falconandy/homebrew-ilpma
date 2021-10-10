@@ -3,9 +3,9 @@ require "language/node"
 class IlpmaDev < Formula
   desc "The Ilpma CLI (Dev)"
   homepage "https://example.com"
-  url "https://github.com/falconandy/ilpma/releases/download/latest/ilpma-v0.1.31-master-20211010060639.0.tar.gz"
-  version "0.1.31-master-20211010060639.0"
-  sha256 "f14d6c4d88927adf1b95b499e62dd98108cf6d7ef0419a8026822933ae35b0d5"
+  url "https://github.com/falconandy/ilpma/releases/download/latest/ilpma-v0.1.31-master-20211010062526.0.tar.gz"
+  version "0.1.31-master-20211010062526.0"
+  sha256 "a9dd8600dc72f0ac0c740add2318c834b28448cccd1cde2a27d0cb7731bc0933"
 
   depends_on "node@12"
 
