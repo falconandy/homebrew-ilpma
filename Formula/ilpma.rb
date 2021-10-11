@@ -1,9 +1,9 @@
 class Ilpma < Formula
   desc "The Ilpma CLI"
   homepage "https://example.com"
-  url "https://github.com/falconandy/homebrew-ilpma/releases/download/v0.1.31/ilpma-v0.1.31.tar.gz"
-  version "0.1.31"
-  sha256 "d8034c2d480fa47a9ae053f9046b9d8f2e84e7825bb379e70296c61555b91e8d"
+  url "https://github.com/falconandy/homebrew-ilpma/releases/download/v0.1.32/ilpma-v0.1.32.tar.gz"
+  version "0.1.32"
+  sha256 "a8dcf53381afbbb557b2a8e48d20560addb8521f2e501530bd8ac6cabcbc8a3d"
 
   depends_on "node@12"
 
